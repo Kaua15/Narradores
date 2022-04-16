@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main-article {
+    height: 70vh;
+    background-image: url(images/img-home-clebercaio.PNG);
+    background-size: cover;
+    color: white;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #051126;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
