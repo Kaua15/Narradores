@@ -135,6 +135,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-bottom: 3em;
+    flex-flow: row wrap;
 }
 
 .footer-social-title a {
@@ -153,6 +154,7 @@ footer {
     gap: 1em;
     justify-content: space-between;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 .footer-social-medias li a{
@@ -174,13 +176,14 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    
+    flex-flow: row wrap;
 }
 
 .footer-terms nav ul {
     list-style: none;
     display: flex;
     gap: 1rem;
+    flex-flow: row wrap;
 
     font-size: 1.6rem;
 }
