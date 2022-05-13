@@ -9,6 +9,11 @@
     src: url(media/fonts/Circular/CircularStd-Black.otf) format('opentype');
 }
 
+@font-face {
+    font-family: 'OpenSans';
+    src: url(media/fonts/Open_Sans/OpenSans.ttf) format('truetype');
+}
+
 body {
     min-height: 100vh;
     font-family: "Circular";
@@ -212,8 +217,73 @@ footer {
 
 #saibamais {
     min-height: 80vh;
-    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 7em;
+    margin-bottom: 2em;
+    background-image: url(media/images/cleber-machado/cleber-2.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
+
+#saibamais p {
+    padding: 1em 0;
+    border-top: 5px solid #000;
+    font-size: 1.4em;
+}
+
+#saibamais h1 {
+    margin-bottom: 0.6em;
+    font-size: 3em;
+}
+
+#saibamais a {
+    background: #000;
+    padding: 0.9em 2em;
+    margin: 1.2em 0;
+    border-radius: 4em;
+
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    font-size: 1em;
+}
+
+#saibamais a:hover {
+    background: rgba(214, 115, 115, 0.808)
+}
+
+.mark {
+    color: #fff;
+    background-color: #000;
+    padding: 0.2em 0.4em;
+    border-radius: 2%;
+}
+
+#sobre {
+    margin: 1em 20%;
+    padding-top: 2em;
+    text-align: center;
+}
+
+#sobre h2{
+    font-size: 3em;
+    margin: 0.5em 0;
+    text-align: left;
+}
+
+#sobre p{
+    font-family: 'OpenSans';
+    line-height: 2em;
+    text-align: justify;
+    margin: 1em 0;
+}
+
+#sobre img {
+    margin: 0 auto;
+}
+
 
 
 
