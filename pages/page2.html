@@ -11,56 +11,55 @@
     <link rel="icon" href="../media/images/icon-microfone.png" type="image/x-icon">
 </head>
 <body>
-    <audio src="audios/cleber-juventude.mp"  autoplay></audio>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar-links">
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="#">Galvão Bueno</a></li>
-                <li><a href="../pages/page3.html">Cleber Machado</a></li>
-                <li><a href="../pages/page4.html">Luiz Roberto</a></li>
-                <li><a href="../pages/contact.html">Contato</a></li>
+                <li><a href="page3.html">Cleber Machado</a></li>
+                <li><a href="page4.html">Luiz Roberto</a></li>
+                <li class="vertical-separate-line"></li>
+                <li><a href="contact.html">Contato</a></li>
             </ul>
         </nav>
 
-        <h1>Narradores</h1> 
+        <div class="horizontal-separate-line">
+            <div></div>
+        </div>
+        
+
+        <div class="title">
+            <a href="../index.html">
+                <img src="../media/images/icon-microfone.png" alt="icon-narras" height="44" width="44">
+                <h1>Narradores</h1>
+            </a>   
+        </div>
     </header>
 
-    <hr>
+    <article id="saibamais" class="imgfundo-galvao">
+        <p>Julho 21, 1950</p>
+        <h1><span class="mark">Galvão</span><br><span class="mark">Bueno</span></h1>
+        <span>O maior Narrador da televisão mundial.</span>
+        <a href="#sobre">       
+            <span>Saiba Mais</span>    
+        </a>
+    </article>
+
     <main>
-        <article>
-            <div>
-                <address>Julho 21, 1950</address>
-            </div>
-            <h1>Galvão<br>Bueno</h1>
-            <span>O maior Narrador da televisão mundial.</span>
-            <br>
-            <a href="#">       
-                <div>
-                    <span>Saiba Mais</span>
-                <div>     
-            </a>
-        </article>
-        
-        <hr>
-    
         <article id="biografia">
             <section id="sobre">
                 <div>
                     <h2>Sobre</h2>
                     <p>Carlos Eduardo dos Santos Galvão Bueno (Rio de Janeiro, 21 de julho de 1950), mais conhecido como Galvão Bueno, é um locutor esportivo, empresário, radialista e apresentador brasileiro. É considerado o narrador esportivo mais famoso do Brasil.</p>
                     <p>Atualmente, Galvão é muito conhecido por narrar para brasileiros momentos relevantes do esporte nacional, como o tetracampeonato e o pentacampeonato mundial da Seleção Brasileira de Futebol, os títulos mundiais de Fórmula 1 e o acidente fatal do piloto brasileiro Ayrton Senna em 1994, além de vários Jogos Olímpicos da era moderna.</p>
-                    <picture>
-                        <img src="../media/images/galvao/galvao-bueno-images1.png" alt="galvao-bueno1" width="50%">
-                    </picture>
+                    <img src="../media/images/galvao/galvao-bueno-images1.png" alt="galvao-bueno1" width="70%">                   
                     <p>Ao mesmo tempo em que é considerado por seus admiradores um ícone da locução esportiva brasileira, Galvão Bueno é criticado pela visão ufanista e de favoritismo com que narra qualquer esporte em que o Brasil esteja participando. Um dos momentos mais notáveis desse ufanismo foi durante o jogo da Alemanha contra o Brasil na Copa do Mundo FIFA de 2014, quando a Seleção Alemã teve grande atuação e marcou vários gols no primeiro tempo. São frequentes as ofensas de torcidas brasileiras de futebol ao locutor em jogos em que está presente. Durante a final de basquetebol dos Jogos Pan-Americanos de 2007, entre aplausos para Oscar Schmidt e Hortência, mais uma vez o locutor foi motivo de escárnio dos torcedores.</p>
                 </div>         
             </section>
     
-            <hr>
     
             <section id="trabalhos">
-                <h2>trabalhos</h2>
+                <h2>Trabalhos</h2>
                 <table>
                     <thead>
                         <tr>
@@ -108,100 +107,152 @@
                 </table>
             </section>
         </article>
-    
-        <hr>
-    
-        <article id="melhores-narrações">
-            <div>
-               <h3>É TETRA!</h3> 
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
-               Numquam aperiam veniam ipsam iusto repudiandae eos voluptates eveniet ipsum magnam nesciunt ullam ut, qui distinctio, voluptatem cum quod iste? Quam assumenda vero debitis laborum odio numquam illum commodi doloribus.
-               Quos eos dolore sunt iste aliquam eaque dolores tenetur quidem architecto fuga culpa voluptatem rem magnam accusantium nulla corrupti reprehenderit molestias nisi nesciunt nihil debitis, et aspernatur deserunt enim. Delectus?</p>
-               <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/suE0kDUSQS0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <article id="melhores-narracoes">
+            <h1>Melhores Narrações</h1>
+            
+            <div class="videos">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/suE0kDUSQS0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div>
+                    <h3>É TETRA!</h3> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis?  Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.              
+                    </p> 
+                </div>                      
             </div>
     
-            <div>
-                <h3>VIRO PASSEIO!</h3> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
-                Numquam aperiam veniam ipsam iusto repudiandae eos voluptates eveniet ipsum magnam nesciunt ullam ut, qui distinctio, voluptatem cum quod iste? Quam assumenda vero debitis laborum odio numquam illum commodi doloribus.
-                Quos eos dolore sunt iste aliquam eaque dolores tenetur quidem architecto fuga culpa voluptatem rem magnam accusantium nulla corrupti reprehenderit molestias nisi nesciunt nihil debitis, et aspernatur deserunt enim. Delectus?</p>
+            <hr>
+
+            <div class="videos">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HlCGkxgQ56c?controls=0;showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                <div>
+                    <h3>VIRO PASSEIO!</h3> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
+                    </p>
+                </div>           
             </div>
     
-            <div>
-                <h3>SÂO LUIZ DO MARANHAOOO!</h3> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
-                Numquam aperiam veniam ipsam iusto repudiandae eos voluptates eveniet ipsum magnam nesciunt ullam ut, qui distinctio, voluptatem cum quod iste? Quam assumenda vero debitis laborum odio numquam illum commodi doloribus.
-                Quos eos dolore sunt iste aliquam eaque dolores tenetur quidem architecto fuga culpa voluptatem rem magnam accusantium nulla corrupti reprehenderit molestias nisi nesciunt nihil debitis, et aspernatur deserunt enim. Delectus?</p>
+            <hr>
+
+            <div class="videos">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1I4HVnRScHA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div>
+                    <h3>SÂO LUIZ DO MARANHAOOO!</h3> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
+                    </p>
+                </div>                     
             </div>
     
-            <div>
-                <h3>Ayrton Senna do Brasil!</h3> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
-                Numquam aperiam veniam ipsam iusto repudiandae eos voluptates eveniet ipsum magnam nesciunt ullam ut, qui distinctio, voluptatem cum quod iste? Quam assumenda vero debitis laborum odio numquam illum commodi doloribus.
-                Quos eos dolore sunt iste aliquam eaque dolores tenetur quidem architecto fuga culpa voluptatem rem magnam accusantium nulla corrupti reprehenderit molestias nisi nesciunt nihil debitis, et aspernatur deserunt enim. Delectus?</p>
+            <hr>
+
+            <div class="videos">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NJIzaL3yMrQ?controls=0&amp;start=98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div>
+                    <h3>Ayrton Senna do Brasil!</h3> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
+                    </p>
+                </div>             
             </div>
     
-            <div>
-                <h3>Vai Romarioooo!</h3> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
-                Numquam aperiam veniam ipsam iusto repudiandae eos voluptates eveniet ipsum magnam nesciunt ullam ut, qui distinctio, voluptatem cum quod iste? Quam assumenda vero debitis laborum odio numquam illum commodi doloribus.
-                Quos eos dolore sunt iste aliquam eaque dolores tenetur quidem architecto fuga culpa voluptatem rem magnam accusantium nulla corrupti reprehenderit molestias nisi nesciunt nihil debitis, et aspernatur deserunt enim. Delectus?</p>
+            <hr>
+
+            <div class="videos">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6z0lq-ip2hA?controls=0&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div>
+                    <h3>Vai Romarioooo!</h3> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
+                    </p>
+                </div>                      
             </div>
     
-            <div>
-                <h3>Viro Passeio!</h3> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
-                Numquam aperiam veniam ipsam iusto repudiandae eos voluptates eveniet ipsum magnam nesciunt ullam ut, qui distinctio, voluptatem cum quod iste? Quam assumenda vero debitis laborum odio numquam illum commodi doloribus.
-                Quos eos dolore sunt iste aliquam eaque dolores tenetur quidem architecto fuga culpa voluptatem rem magnam accusantium nulla corrupti reprehenderit molestias nisi nesciunt nihil debitis, et aspernatur deserunt enim. Delectus?</p>
+            <hr>
+
+            <div class="videos">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/q6purDWACBI?controls=0&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div>
+                    <h3>Viro Passeio!</h3> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
+                    </p>
+                </div>            
             </div>
     
-            <div>
-                <h3>Olha o que ele fez!</h3> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
-                Numquam aperiam veniam ipsam iusto repudiandae eos voluptates eveniet ipsum magnam nesciunt ullam ut, qui distinctio, voluptatem cum quod iste? Quam assumenda vero debitis laborum odio numquam illum commodi doloribus.
-                Quos eos dolore sunt iste aliquam eaque dolores tenetur quidem architecto fuga culpa voluptatem rem magnam accusantium nulla corrupti reprehenderit molestias nisi nesciunt nihil debitis, et aspernatur deserunt enim. Delectus?</p>
+            <hr>
+
+            <div class="videos">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SaV753UN8gY?controls=0&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div>
+                    <h3>Olha o que ele fez!</h3> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
+                    </p>
+                </div>            
             </div>
     
-            <div>
-                <h3>PELE</h3> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
-                Numquam aperiam veniam ipsam iusto repudiandae eos voluptates eveniet ipsum magnam nesciunt ullam ut, qui distinctio, voluptatem cum quod iste? Quam assumenda vero debitis laborum odio numquam illum commodi doloribus.
-                Quos eos dolore sunt iste aliquam eaque dolores tenetur quidem architecto fuga culpa voluptatem rem magnam accusantium nulla corrupti reprehenderit molestias nisi nesciunt nihil debitis, et aspernatur deserunt enim. Delectus?</p>
+            <hr>
+
+            <div class="videos">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/m40vyqdaaJw?controls=0&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div>
+                    <h3>PELE</h3> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, pariatur quis? Non eveniet, ipsum iure commodi, magnam reprehenderit asperiores autem, doloribus alias fugiat eos! Vitae voluptate illum at praesentium nulla.
+                    </p>
+                </div>                 
             </div>
         </article>
     </main>
-    
 
-    <hr>
+    <footer id="footer">
+        <div class="footer-social">   
+            <div class="footer-social-title">
+                <a href="../index.html">
+                    <img src="../media/images/icon-microfone.png" alt="icon-narras" height="44" width="44">
+                    <h1>Narradores</h1>
+                </a>   
+            </div>
+            <nav class="footer-social-medias">
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/mechamokaua">
+                            <img src="../media/images/icon-instagram.png" alt="icon-instagram" height="25" width="25" title="Instagram">
+                        </a>
+                    </li>
+                    
+                    <li>    
+                        <a href="https://github.com/Kaua15">
+                            <img src="../media/images/icon-github.png" alt="icon-github" height="25" width="25" title="GitHub">
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="https://br.pinterest.com/mechamokaua/_created/">
+                            <img src="../media/images/icon-pinterest.png" alt="icon-pinterest" height="25" width="25" title="GitHub">
+                        </a>
+                    </li>    
+                </ul>
+            </nav>
+        </div>
 
-    <footer>
-        <img src="../media/images/icon-microfone.png" alt="icon-narras" height="34" width="34">
-        <span>Narradores</span>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://www.instagram.com/mechamokaua">
-                        <img src="../media/images/icon-instagram.png" alt="icon-instagram" height="34" width="34" title="Instagram">
-                    </a>
-                </li>
-                
-                <li>    
-                    <a href="https://github.com/Kaua15">
-                        <img src="../media/images/icon-github.png" alt="icon-github" height="34" width="34" title="GitHub">
-                    </a>
-                </li>     
-            </ul>
-        </nav>
-        
-        <address>© Brasil</address>
-        <div>© 2022 Os melhores do mundo</div>  
+        <div class="footer-terms">
+            <nav>
+                <ul>
+                    <li><a href="#footer">Legal</a></li>
+                    <li><a href="#footer">Centro de Privacidade</a></li>
+                    <li><a href="#footer">Política de privacidade</a></li>
+                    <li><a href="#footer">Cookies</a></li>
+                    <li><a href="#footer">Sobre anúncios</a></li>
+                </ul>
+            </nav>
+            <div>
+                <address>© Brasil</address>
+                <span>© 2022 Os melhores do mundo</span> 
+            </div>
+        </div>              
     </footer>
 </body>
 </html>
